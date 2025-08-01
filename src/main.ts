@@ -7,7 +7,10 @@ import viteLogo from '/vite.svg'
 //import './bace/03-arrays'
 //import './bace/04-funcions'
 //import './bace/05-deses-obj'
-import './bace/06-deses-arr'
+//import './bace/06-deses-arr'
+//import './bace/07-imp-exp'
+//import './bace/08-promises'
+import './bace/09-fetch-api'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
