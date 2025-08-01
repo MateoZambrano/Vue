@@ -3,6 +3,13 @@ export interface GIFResponse {
     meta: Meta;
 }
 
+/* 
+Nota importante: Para sacar esta interface o la respuesta hay que hacerlo de la siguiente manera:
+Abrir postman y pegar la URL de la pagina web, en la cual te dara una respos la cual tienes que copiar para luego hacer lo siguiente.
+Usando los comandos ctrl+shift+p te lleva al panel de busqueda donde tiene que usar 
+una extencion de visual que es Paste JSON as Code, para que luego ocurra la magia.
+*/
+
 export interface Data {
     type:                       string;
     id:                         string;
